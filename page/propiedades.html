@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Propiedades disponibles a la venta, o alquiler.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Propiedades</title>
+	<link rel="stylesheet" type="text/css" href="../css/propiedades.css">
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins?selection.family=Caveat#standard-styles">
+	<link rel="icon" type="icon" href="../img/icono.png">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <script src="../js/scriptpropiedades.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+</head>
+<header>
+	<nav>
+		<div id="navimg" class="divnav"><a href="../index.html"><img src="../img/logo1.png"></a></div>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn"><div id="menu1"><img src="../img/menu.png"></div></label>
+		<label for="check" class="checkbtn2"></label>
+		<div id="navbar" class="divnav">
+			<div id="clogom">
+				<img src="../img/logo4.png" id="logom">
+			</div>
+			<ul>
+                <li><a href="../index.html"><img src="../img/inicio.png">Inicio</a></li>
+				<li><a href="./propiedades.html"><img src="../img/propiedades.png">Propiedades</a></li>
+				<li><a href="./terrenos.html"><img src="../img/terreno.png">Terrenos</a></li>
+				<li><a href="./sobrenosotros.html"><img src="../img/nosotros.png">Sobre Nosotros</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+<body>
+	<section id="mapsec">
+		<div id="mapt"><h1>BUSCÁ POR ZONAS</h1></div>
+		<div id="mapcon">
+			<div id="mapcon1">
+		        <div id="map"></div>
+			</div>
+			<div id="mapcon2">
+				<h3>Propiedades Destacadas</h3>
+				<div id="mapcard">
+					<div class="cardm" id="card3">
+        		    <a href="./santiago118.html"><img src="../img/propiedades/Santiago 118/presentacion2.jpg" class="imgcardm"></a>
+        		    <div class="txtcardm">
+        			<h5><b>Santiago 118</b><br>Capital, Tucumán</h5>
+        		    <p>
+        		       Oficinas<br> 
+        		       Piso 7<br>
+        		        Semipiso o piso completo<br>
+        		        100m² / 200m²<br>
+		            </p>
+		            <div class="btncardm"><a href="./santiago118.html">Ver más</a></div>
+        		    </div>
+	               </div>
+	               <div class="cardm" id="card3">
+        		    <a href="./maipu900.html"><img src="../img/propiedades/Maipu al 900/presentacion2.jpg" class="imgcardm"></a>
+        		    <div class="txtcardm">
+        			<h5><b>Maipú 900</b><br>Capital, Tucumán</h5>
+        		     <p>
+        		        Local comercial<br>
+        		        Area: 266,7m²<br><br>
+		            </p>
+		            <div class="btncardm"><a href="./maipu900.html">Ver más</a></div>
+        		    </div>
+	               </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="cardsec">
+		<div id="cardsec1">
+			<h1>FILTROS</h1>
+			<form>
+				<label class="botonf" id="botonf1"><input type="radio" name=myradio value="all" id="check1">Todo</label>
+				<label class="botonf" id="botonf2"><input type="radio" name=myradio value="small" id="check2">Pequeñas superficies</label>
+                <label class="botonf" id="botonf3"><input type="radio" name=myradio value="big" id="check3">Grandes superficies</label>
+			</form>
+		</div>
+		<div id="cardsec2">
+	        <div class="cardd small">
+        		<a href="./pellegrini600.html"><img src="../img/propiedades/Pellegrini al 600/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>Pellegrini 646</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Dimensiones 12.5m x 18m<br>
+        		        Area: 170m²<br>
+        		        Habitaciones: 3<br><br>
+		            </p>
+		            <div class="btncardd"><a href="./pellegrini600.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd big" >
+        		<a href="./santabarbara.html"><img src="../img/propiedades/Santa Barbara Hills/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>Santa Bárbara Hills</b> | San Pablo, Tucumán</h5>
+        		     <p>
+        		        Dimensiones 19,6m x 27,9m<br>
+        		        Area: 546m²<br>
+        		        Habitaciones: 3 (1 en suite)
+		            </p>
+		            <div class="btncardd"><a href="./santabarbara.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd big" >
+        		<a href="./marcospaz2400.html"><img src="../img/propiedades/Marcos Paz al 2400/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>Marcos Paz 2451</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Dos casas en un mismo terreno<br>
+        		        Dimensiones: 10mx53.35m<br>
+        		        Area: 533,5m²
+		            </p>
+		            <div class="btncardd"><a href="./marcospaz2400.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd big" >
+        		<a href="./maipu900.html"><img src="../img/propiedades/Maipu al 900/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>Maipú 900</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Local comercial<br>
+        		        Area: 266,7m²<br><br>
+		            </p>
+		            <div class="btncardd"><a href="./maipu900.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd small">
+        		<a href="./lariojaal300.html"><img src="../img/propiedades/La Rioja al 300/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>La Rioja 327</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Area: 42,31m²<br>
+        		        Monoambiente<br><br>
+		            </p>
+		            <div class="btncardd"><a href="./lariojaal300.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd">
+        		<a href="./sanluis552.html"><img src="../img/propiedades/San Luis 552/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>San Luis 552</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Departamentos de 1 dormitorio<br>
+        		        Desde 50m² hasta 65m²<br>
+        		        Sum y pileta<br>
+		            </p>
+		            <div class="btncardd"><a href="./sanluis552.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd small">
+        		<a href="./sanmartin4045.html"><img src="../img/propiedades/San Martin 4045/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>San Martin 4045</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Duplex<br>
+        		        Habitaciones: 3<br><br>
+		            </p>
+		            <div class="btncardd"><a href="./sanmartin4045.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd big">
+        		<a href="./santiago118.html"><img src="../img/propiedades/Santiago 118/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>Santiago 118</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Oficinas, piso 7<br>
+        		        Semipiso o piso completo<br>
+        		        100m² / 200m²<br><br>
+		            </p>
+		            <div class="btncardd"><a href="./santiago118.html">Ver más</a></div>
+        		</div>
+	        </div>
+	        <div class="cardd big">
+        		<a href="./santiago941.html"><img src="../img/propiedades/Santiago al 900/presentacion.jpg" class="imgcardd"></a>
+        		<div class="txtcardd">
+        			<h5><b>Santiago 941</b> | Capital, Tucumán</h5>
+        		     <p>
+        		        Dimensiones 7m x 24m<br>
+        		        Area: 168m²<br>
+        		        Para restaurar o demoler<br><br>
+		            </p>
+		            <div class="btncardd"><a href="./santiago941.html">Ver más</a></div>
+        		</div>
+	        </div>
+	    </div>
+	</section>
+</body>
+<footer>
+	<div id="news">
+		<h3>Subscribite a nuestro newsletter y te mantendremos informado</h3>
+		<form name="subsNewsletter" id="newsForm"  method="post" action="../mail/newsletter.php" novalidate>
+			<input type="email" id="emailnews" name="emailnews" placeholder="Escribí tu email aquí..." required="required">
+			<button type="submit" id="newsbutton"><p id="pbtn">></p></button>
+		</form>
+	</div>
+	<div id="contfooter">
+		<div id="cf1" class="cfdiv">
+			<img src="../img/logo3.png" alt="logo-castillo-inmb" id="imgfooter">
+			<h4>La nueva generación inmobiliaria</h4>
+			<p>San Miguel de Tucumán, Tucumán, Argentina</p>
+		</div>
+		<div id="cf2" class="cfdiv">
+			<div id="cf2c"><div><img src="../img/usuario.png" alt="contactanos" id="cft"><h5 class="h5ft">Contactanos</h5></div></div>
+			<div id="acf2">
+				<ul>
+                    <li class="liw">
+                    <a href="https://walink.co/c6f353" target="_blank"><img src="../img/whatsapp.png" alt="logo-whatsapp" id="wpfooter">381 629-0317</a>
+                    </li>
+				    <li class="liw">
+				        <a href="https://walink.co/ff63c7" target="_blank"><img src="../img/whatsapp.png" alt="logo-whatsapp" id="wpfooter">381 582-6032</a>
+				        </li>
+				    <li id="lig">
+				        <a href="mailto:castilloinmobiliaria@outlook.com"><img src="../img/gmail.png" alt="logo-gmail" id="gfooter"><p>castilloinmobiliaria@outlook.com</p></a>
+				        </li>
+			   </ul>
+		</div>
+        </div>
+		<div id="cf3" class="cfdiv">
+			<div id="cf31">
+				<div>
+					<img src="../img/follow.png" alt="follow" id="fwft"><h5 class="h5ft">Seguinos</h5>
+				</div>
+			<div id="cf32">
+				<ul>
+					<li><a href="https://instagram.com/inmobiliaria.castillo" target="_blank"><img src="../img/instagram.png" class="redesf"></a></li>
+					<li><a href="https://www.facebook.com/Castillo-Inmobiliaria-2051080574917618/" target="_blank"><img src="../img/facebook.png" class="redesf"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+    <script src="../js/scriptpropiedades.js"></script>
+    <script src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiw8kIRT8MUQgabFt1wl0Qbv-1RUwtM7M&callback=iniciarMap"></script>
+</html>
